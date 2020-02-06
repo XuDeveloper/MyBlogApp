@@ -78,5 +78,68 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin6" />
 
+    <TextView
+        android:id="@+id/text_csdn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="csdn博客："
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/juejin7" />
+
+    <Button
+        android:id="@+id/csdn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单测/UI测"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_csdn" />
+
+    <Button
+        android:id="@+id/csdn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification机制"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn1" />
+
+    <Button
+        android:id="@+id/csdn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kotlin心得体会"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn2" />
+
+    <Button
+        android:id="@+id/csdn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XPopupWindow"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn3" />
+
+    <Button
+        android:id="@+id/csdn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButterKnife"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn4" />
+
+    <Button
+        android:id="@+id/csdn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn5" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

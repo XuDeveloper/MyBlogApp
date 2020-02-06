@@ -33,6 +33,25 @@ class MainActivity : AppCompatActivity() {
         juejin7.setOnClickListener {
             openLink("https://juejin.im/post/5a36412f6fb9a0451d418e2f")
         }
+
+        csdn1.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/97567773")
+        }
+        csdn2.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/88253531")
+        }
+        csdn3.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/82755560")
+        }
+        csdn4.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/81585367")
+        }
+        csdn5.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/80761862")
+        }
+        csdn6.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/80761809")
+        }
     }
 
     private fun openLink(url: String) {
