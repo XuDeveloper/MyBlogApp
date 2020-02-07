@@ -19,7 +19,7 @@
         android:id="@+id/juejin1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="单测/UI测"
+        android:text="Kotlin-Android-Extensions"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_juejin" />
@@ -28,7 +28,7 @@
         android:id="@+id/juejin2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notification机制"
+        android:text="单测/UI测"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin1" />
@@ -37,7 +37,7 @@
         android:id="@+id/juejin3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kotlin心得体会"
+        android:text="Notification机制"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin2" />
@@ -46,7 +46,7 @@
         android:id="@+id/juejin4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XPopupWindow"
+        android:text="Kotlin心得体会"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin3" />
@@ -55,7 +55,7 @@
         android:id="@+id/juejin5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AccService"
+        android:text="XPopupWindow"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin4" />
@@ -64,7 +64,7 @@
         android:id="@+id/juejin6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EventBus"
+        android:text="AccService"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin5" />
@@ -73,10 +73,19 @@
         android:id="@+id/juejin7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ButterKnife"
+        android:text="EventBus"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/juejin6" />
+
+    <Button
+        android:id="@+id/juejin8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ButterKnife"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/juejin7" />
 
     <TextView
         android:id="@+id/text_csdn"
@@ -85,13 +94,13 @@
         android:layout_margin="8dp"
         android:text="csdn博客："
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/juejin7" />
+        app:layout_constraintTop_toBottomOf="@id/juejin8" />
 
     <Button
         android:id="@+id/csdn1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="单测/UI测"
+        android:text="Kotlin-Android-Extensions"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_csdn" />
@@ -100,7 +109,7 @@
         android:id="@+id/csdn2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Notification机制"
+        android:text="单测/UI测"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/csdn1" />
@@ -109,7 +118,7 @@
         android:id="@+id/csdn3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Kotlin心得体会"
+        android:text="Notification机制"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/csdn2" />
@@ -118,7 +127,7 @@
         android:id="@+id/csdn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="XPopupWindow"
+        android:text="Kotlin心得体会"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/csdn3" />
@@ -127,7 +136,7 @@
         android:id="@+id/csdn5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ButterKnife"
+        android:text="XPopupWindow"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/csdn4" />
@@ -136,10 +145,19 @@
         android:id="@+id/csdn6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EventBus"
+        android:text="ButterKnife"
         android:textAllCaps="false"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@id/csdn5" />
+
+    <Button
+        android:id="@+id/csdn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EventBus"
+        android:textAllCaps="false"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/csdn6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

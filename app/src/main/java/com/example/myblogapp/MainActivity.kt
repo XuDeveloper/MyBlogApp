@@ -13,43 +13,49 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         juejin1.setOnClickListener {
-            openLink("https://juejin.im/post/5cdff2a451882525c104c8a7")
+            openLink("https://juejin.im/post/5e0c5c005188253a846aa4d5")
         }
         juejin2.setOnClickListener {
-            openLink("https://juejin.im/post/5c287e1ae51d453634703b15")
+            openLink("https://juejin.im/post/5cdff2a451882525c104c8a7")
         }
         juejin3.setOnClickListener {
-            openLink("https://juejin.im/post/5b9bb5c26fb9a05cf67a78c0")
+            openLink("https://juejin.im/post/5c287e1ae51d453634703b15")
         }
         juejin4.setOnClickListener {
-            openLink("https://juejin.im/post/5b67101e6fb9a04f9963c818")
+            openLink("https://juejin.im/post/5b9bb5c26fb9a05cf67a78c0")
         }
         juejin5.setOnClickListener {
-            openLink("https://juejin.im/post/5b27bfc56fb9a00e373bd232")
+            openLink("https://juejin.im/post/5b67101e6fb9a04f9963c818")
         }
         juejin6.setOnClickListener {
-            openLink("https://juejin.im/post/5a630a6c51882573443cc7d1")
+            openLink("https://juejin.im/post/5b27bfc56fb9a00e373bd232")
         }
         juejin7.setOnClickListener {
+            openLink("https://juejin.im/post/5a630a6c51882573443cc7d1")
+        }
+        juejin8.setOnClickListener {
             openLink("https://juejin.im/post/5a36412f6fb9a0451d418e2f")
         }
 
         csdn1.setOnClickListener {
-            openLink("https://blog.csdn.net/Xu_1215/article/details/97567773")
+            openLink("https://blog.csdn.net/Xu_1215/article/details/104199746")
         }
         csdn2.setOnClickListener {
-            openLink("https://blog.csdn.net/Xu_1215/article/details/88253531")
+            openLink("https://blog.csdn.net/Xu_1215/article/details/97567773")
         }
         csdn3.setOnClickListener {
-            openLink("https://blog.csdn.net/Xu_1215/article/details/82755560")
+            openLink("https://blog.csdn.net/Xu_1215/article/details/88253531")
         }
         csdn4.setOnClickListener {
-            openLink("https://blog.csdn.net/Xu_1215/article/details/81585367")
+            openLink("https://blog.csdn.net/Xu_1215/article/details/82755560")
         }
         csdn5.setOnClickListener {
-            openLink("https://blog.csdn.net/Xu_1215/article/details/80761862")
+            openLink("https://blog.csdn.net/Xu_1215/article/details/81585367")
         }
         csdn6.setOnClickListener {
+            openLink("https://blog.csdn.net/Xu_1215/article/details/80761862")
+        }
+        csdn7.setOnClickListener {
             openLink("https://blog.csdn.net/Xu_1215/article/details/80761809")
         }
     }
